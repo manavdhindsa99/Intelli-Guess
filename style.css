@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2f3542 url('bg1.gif') no-repeat left center/cover;
+    backdrop-filter: blur(4px);
+    backdrop-filter: brightness(60%);
+    backdrop-filter: contrast(40%);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: monospace;
+}
+
+h1,
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.play-again {
+    padding: 8px 15px;
+    border: 0;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%) */
+}
+
+.msg {
+    font-size: 2.0em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 1px dotted #dedede;
+    display: inline-block;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
